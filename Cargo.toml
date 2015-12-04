@@ -1,0 +1,11 @@
+[package]
+name = "ruby"
+version = "0.1.0"
+authors = ["daichi.hirata <hirata.daichi@gmail.com>"]
+
+[lib]
+name = "rust"
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.2"
